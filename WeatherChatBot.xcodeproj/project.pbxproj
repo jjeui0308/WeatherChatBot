@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37F0B7F066CBF35DD09BB63D /* Pods_WeatherChatBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45722EF77054DA36FC56A4A3 /* Pods_WeatherChatBot.framework */; };
 		CEA6468921549CA700992747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6468821549CA700992747 /* AppDelegate.swift */; };
-		CEA6468B21549CA700992747 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6468A21549CA700992747 /* ViewController.swift */; };
-		CEA6468E21549CA700992747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA6468C21549CA700992747 /* Main.storyboard */; };
 		CEA6469021549CA800992747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA6468F21549CA800992747 /* Assets.xcassets */; };
 		CEA6469321549CA800992747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA6469121549CA800992747 /* LaunchScreen.storyboard */; };
+		CEA6469B21549CF300992747 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6469A21549CF300992747 /* ChatViewController.swift */; };
+		CEA6469D2154AC6500992747 /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6469C2154AC6500992747 /* MessageInputView.swift */; };
+		CEA6469F2154AD0800992747 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6469E2154AD0800992747 /* Extension+UIColor.swift */; };
+		CEA646A12154AE3600992747 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA646A02154AE3600992747 /* MessageCell.swift */; };
+		CEA646A52154C04900992747 /* MessageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA646A42154C04900992747 /* MessageInfo.swift */; };
+		CEA646A82154CBD500992747 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA646A72154CBD500992747 /* WeatherManager.swift */; };
+		CEA646AA2154CD5500992747 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA646A92154CD5500992747 /* Weather.swift */; };
+		CEA646AC2154CDA200992747 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA646AB2154CDA100992747 /* APIService.swift */; };
+		CEA646AE2154CFAE00992747 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA646AD2154CFAE00992747 /* ChatManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45722EF77054DA36FC56A4A3 /* Pods_WeatherChatBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherChatBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD2B356B1683CFA93B63353E /* Pods-WeatherChatBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherChatBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherChatBot/Pods-WeatherChatBot.debug.xcconfig"; sourceTree = "<group>"; };
+		CD2452034F0E4495E6C34C01 /* Pods-WeatherChatBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherChatBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherChatBot/Pods-WeatherChatBot.release.xcconfig"; sourceTree = "<group>"; };
 		CEA6468521549CA700992747 /* WeatherChatBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherChatBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA6468821549CA700992747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEA6468A21549CA700992747 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEA6468D21549CA700992747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEA6468F21549CA800992747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA6469221549CA800992747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEA6469421549CA800992747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA6469A21549CF300992747 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		CEA6469C2154AC6500992747 /* MessageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
+		CEA6469E2154AD0800992747 /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		CEA646A02154AE3600992747 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		CEA646A42154C04900992747 /* MessageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInfo.swift; sourceTree = "<group>"; };
+		CEA646A72154CBD500992747 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		CEA646A92154CD5500992747 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		CEA646AB2154CDA100992747 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CEA646AD2154CFAE00992747 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37F0B7F066CBF35DD09BB63D /* Pods_WeatherChatBot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ADD48621BE6BB0D434C98A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B356B1683CFA93B63353E /* Pods-WeatherChatBot.debug.xcconfig */,
+				CD2452034F0E4495E6C34C01 /* Pods-WeatherChatBot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CEA6467C21549CA700992747 = {
 			isa = PBXGroup;
 			children = (
 				CEA6468721549CA700992747 /* WeatherChatBot */,
 				CEA6468621549CA700992747 /* Products */,
+				2ADD48621BE6BB0D434C98A9 /* Pods */,
+				DBCB83607EFCB920013D739C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +84,29 @@
 		CEA6468721549CA700992747 /* WeatherChatBot */ = {
 			isa = PBXGroup;
 			children = (
+				CEA646AB2154CDA100992747 /* APIService.swift */,
+				CEA6469C2154AC6500992747 /* MessageInputView.swift */,
+				CEA646AD2154CFAE00992747 /* ChatManager.swift */,
+				CEA646A72154CBD500992747 /* WeatherManager.swift */,
+				CEA646A42154C04900992747 /* MessageInfo.swift */,
+				CEA6469A21549CF300992747 /* ChatViewController.swift */,
+				CEA6469E2154AD0800992747 /* Extension+UIColor.swift */,
 				CEA6468821549CA700992747 /* AppDelegate.swift */,
-				CEA6468A21549CA700992747 /* ViewController.swift */,
-				CEA6468C21549CA700992747 /* Main.storyboard */,
+				CEA646A02154AE3600992747 /* MessageCell.swift */,
 				CEA6468F21549CA800992747 /* Assets.xcassets */,
 				CEA6469121549CA800992747 /* LaunchScreen.storyboard */,
 				CEA6469421549CA800992747 /* Info.plist */,
+				CEA646A92154CD5500992747 /* Weather.swift */,
 			);
 			path = WeatherChatBot;
+			sourceTree = "<group>";
+		};
+		DBCB83607EFCB920013D739C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45722EF77054DA36FC56A4A3 /* Pods_WeatherChatBot.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEA6469721549CA800992747 /* Build configuration list for PBXNativeTarget "WeatherChatBot" */;
 			buildPhases = (
+				D10894E724B8FC72AEF64614 /* [CP] Check Pods Manifest.lock */,
 				CEA6468121549CA700992747 /* Sources */,
 				CEA6468221549CA700992747 /* Frameworks */,
 				CEA6468321549CA700992747 /* Resources */,
+				0E48EC8E139D844049366BB4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,33 +171,71 @@
 			files = (
 				CEA6469321549CA800992747 /* LaunchScreen.storyboard in Resources */,
 				CEA6469021549CA800992747 /* Assets.xcassets in Resources */,
-				CEA6468E21549CA700992747 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E48EC8E139D844049366BB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WeatherChatBot/Pods-WeatherChatBot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ForecastIO/ForecastIO.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ForecastIO.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherChatBot/Pods-WeatherChatBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D10894E724B8FC72AEF64614 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherChatBot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CEA6468121549CA700992747 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA6468B21549CA700992747 /* ViewController.swift in Sources */,
+				CEA646AA2154CD5500992747 /* Weather.swift in Sources */,
+				CEA6469B21549CF300992747 /* ChatViewController.swift in Sources */,
+				CEA646A12154AE3600992747 /* MessageCell.swift in Sources */,
 				CEA6468921549CA700992747 /* AppDelegate.swift in Sources */,
+				CEA646A82154CBD500992747 /* WeatherManager.swift in Sources */,
+				CEA646AE2154CFAE00992747 /* ChatManager.swift in Sources */,
+				CEA6469D2154AC6500992747 /* MessageInputView.swift in Sources */,
+				CEA6469F2154AD0800992747 /* Extension+UIColor.swift in Sources */,
+				CEA646AC2154CDA200992747 /* APIService.swift in Sources */,
+				CEA646A52154C04900992747 /* MessageInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CEA6468C21549CA700992747 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEA6468D21549CA700992747 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEA6469121549CA800992747 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,16 +365,17 @@
 		};
 		CEA6469821549CA800992747 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD2B356B1683CFA93B63353E /* Pods-WeatherChatBot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R3D3TD5X93;
+				DEVELOPMENT_TEAM = TF46W5T2MA;
 				INFOPLIST_FILE = WeatherChatBot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ghsoft.WeatherChatBot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.longblack.WeatherChatBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,16 +384,17 @@
 		};
 		CEA6469921549CA800992747 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD2452034F0E4495E6C34C01 /* Pods-WeatherChatBot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R3D3TD5X93;
+				DEVELOPMENT_TEAM = TF46W5T2MA;
 				INFOPLIST_FILE = WeatherChatBot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ghsoft.WeatherChatBot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.longblack.WeatherChatBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

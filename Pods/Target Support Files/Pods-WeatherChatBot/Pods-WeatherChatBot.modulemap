@@ -1,0 +1,6 @@
+framework module Pods_WeatherChatBot {
+  umbrella header "Pods-WeatherChatBot-umbrella.h"
+
+  export *
+  module * { export * }
+}
